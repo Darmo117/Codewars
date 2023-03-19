@@ -1,0 +1,1 @@
+def deck_of_cards(): return [f'{number} of {kind}' for number in ('ace', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'jack', 'queen', 'king') for kind in ('hearts', 'spades', 'diamonds', 'clubs')]
